@@ -1,12 +1,14 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
 # Virtual environments
 venv/
 env/
 .venv/
-
-# Python cache
-__pycache__/
-*.py[cod]
-.pytest_cache/
 
 # Environment variables and secrets
 .env
@@ -15,24 +17,38 @@ __pycache__/
 
 # SQLite databases
 *.db
+*.sqlite
 *.sqlite3
+
+# Logs
+*.log
+logs/
 
 # Jupyter
 .ipynb_checkpoints/
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Frontend dependencies
+frontend/node_modules/
+
+# Frontend build
+frontend/dist/
+
+# Vite
+frontend/.vite/
+
+# Operating system
+.DS_Store
+Thumbs.db
 
 # IDE
 .vscode/
 .idea/
 
-# OS files
-.DS_Store
-
-# Logs
-*.log
-
 # Temporary files
 *.tmp
 *.bak
-
-# Generated reports and temporary outputs
-*.pdf
