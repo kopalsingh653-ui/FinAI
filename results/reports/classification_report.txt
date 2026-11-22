@@ -1,0 +1,11 @@
+FINAI CLASSIFICATION REPORT
+==================================================
+
+              precision    recall  f1-score   support
+
+ Non-default       0.87      0.87      0.87      3505
+     Default       0.54      0.56      0.55       995
+
+    accuracy                           0.80      4500
+   macro avg       0.71      0.71      0.71      4500
+weighted avg       0.80      0.80      0.80      4500

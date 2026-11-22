@@ -1,0 +1,6 @@
+{
+    "default_threshold": 0.5,
+    "selected_threshold": 0.2899999999999999,
+    "minimum_validation_recall": 0.5,
+    "selection_method": "Maximum validation F1 subject to minimum recall constraint"
+}

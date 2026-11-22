@@ -1,0 +1,45 @@
+{
+    "audit_dataset": "Held-out test dataset",
+    "protected_attribute": "SEX",
+    "threshold": 0.2899999999999999,
+    "group_metrics": {
+        "Male": {
+            "sample_count": 1796,
+            "actual_default_rate": 0.23942093541202672,
+            "predicted_default_rate": 0.2594654788418708,
+            "accuracy": 0.7739420935412027,
+            "precision": 0.5257510729613734,
+            "recall_tpr": 0.5697674418604651,
+            "false_positive_rate": 0.1617862371888726,
+            "f1_score": 0.546875,
+            "true_positives": 245,
+            "false_positives": 221,
+            "true_negatives": 1145,
+            "false_negatives": 185
+        },
+        "Female": {
+            "sample_count": 2704,
+            "actual_default_rate": 0.20894970414201183,
+            "predicted_default_rate": 0.20857988165680474,
+            "accuracy": 0.8139792899408284,
+            "precision": 0.5549645390070922,
+            "recall_tpr": 0.5539823008849557,
+            "false_positive_rate": 0.11734455352968677,
+            "f1_score": 0.5544729849424269,
+            "true_positives": 313,
+            "false_positives": 251,
+            "true_negatives": 1888,
+            "false_negatives": 252
+        }
+    },
+    "fairness_differences": {
+        "reference_group": "Male",
+        "comparison_group": "Female",
+        "demographic_parity_difference": -0.05088559718506608,
+        "equal_opportunity_difference": -0.015785140975509426,
+        "false_positive_rate_difference": -0.04444168365918584,
+        "predicted_default_rate_ratio": 0.803882977372578,
+        "accuracy_difference": 0.04003719639962566
+    },
+    "interpretation_note": "These are descriptive group-level diagnostics. They do not establish legal compliance or prove the absence of discrimination. Results may be affected by sample composition, historical labels and proxy variables."
+}

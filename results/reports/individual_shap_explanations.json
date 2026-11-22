@@ -1,0 +1,3602 @@
+[
+    {
+        "borrower_sample": 1,
+        "predicted_default_probability": 0.12433847784996033,
+        "top_feature_explanations": [
+            {
+                "feature": "EDUCATION",
+                "feature_value": 6.0,
+                "shap_value": -0.10865149933273902,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "LIMIT_BAL",
+                "feature_value": 20000.0,
+                "shap_value": 0.02431941763587256,
+                "impact": "Increases predicted default probability"
+            },
+            {
+                "feature": "PAY_0",
+                "feature_value": 0.0,
+                "shap_value": -0.020897991082378675,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "credit_utilisation",
+                "feature_value": 0.8248583333333334,
+                "shap_value": 0.01484069152901805,
+                "impact": "Increases predicted default probability"
+            },
+            {
+                "feature": "payment_trend",
+                "feature_value": 1318.0,
+                "shap_value": -0.011860592841734659,
+                "impact": "Decreases predicted default probability"
+            }
+        ]
+    },
+    {
+        "borrower_sample": 2,
+        "predicted_default_probability": 0.12714052200317383,
+        "top_feature_explanations": [
+            {
+                "feature": "max_delinquency",
+                "feature_value": 0.0,
+                "shap_value": -0.0259833087641359,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "bill_change_recent",
+                "feature_value": 780.0,
+                "shap_value": -0.015768696416655303,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "credit_utilisation",
+                "feature_value": 0.19305666666666668,
+                "shap_value": -0.014863872962762828,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "late_payment_months",
+                "feature_value": 0.0,
+                "shap_value": -0.014700066867259262,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "PAY_0",
+                "feature_value": -1.0,
+                "shap_value": -0.011630190601075426,
+                "impact": "Decreases predicted default probability"
+            }
+        ]
+    },
+    {
+        "borrower_sample": 3,
+        "predicted_default_probability": 0.406510591506958,
+        "top_feature_explanations": [
+            {
+                "feature": "max_delinquency",
+                "feature_value": 2.0,
+                "shap_value": 0.10036930537068108,
+                "impact": "Increases predicted default probability"
+            },
+            {
+                "feature": "severe_delinquency_months",
+                "feature_value": 4.0,
+                "shap_value": 0.045679282711571574,
+                "impact": "Increases predicted default probability"
+            },
+            {
+                "feature": "PAY_AMT1",
+                "feature_value": 6000.0,
+                "shap_value": -0.03695397251079708,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "avg_repayment_status",
+                "feature_value": 1.5,
+                "shap_value": 0.02777198046174968,
+                "impact": "Increases predicted default probability"
+            },
+            {
+                "feature": "bill_change_recent",
+                "feature_value": -2615.0,
+                "shap_value": 0.014837543481554503,
+                "impact": "Increases predicted default probability"
+            }
+        ]
+    },
+    {
+        "borrower_sample": 4,
+        "predicted_default_probability": 0.058240000158548355,
+        "top_feature_explanations": [
+            {
+                "feature": "max_delinquency",
+                "feature_value": 0.0,
+                "shap_value": -0.03269698198317562,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "PAY_0",
+                "feature_value": -1.0,
+                "shap_value": -0.028483509567446774,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "PAY_AMT2",
+                "feature_value": 9537.0,
+                "shap_value": -0.0249005943380787,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "bill_change_recent",
+                "feature_value": 29093.0,
+                "shap_value": -0.022596665743848828,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "severe_delinquency_months",
+                "feature_value": 0.0,
+                "shap_value": -0.020819329820624757,
+                "impact": "Decreases predicted default probability"
+            }
+        ]
+    },
+    {
+        "borrower_sample": 5,
+        "predicted_default_probability": 0.13044951856136322,
+        "top_feature_explanations": [
+            {
+                "feature": "max_delinquency",
+                "feature_value": -2.0,
+                "shap_value": -0.03198024105057856,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "late_payment_months",
+                "feature_value": 0.0,
+                "shap_value": -0.019261549679468564,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "PAY_0",
+                "feature_value": -2.0,
+                "shap_value": -0.016030014012812534,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "BILL_AMT3",
+                "feature_value": -3.0,
+                "shap_value": -0.009567642481974807,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "credit_utilisation",
+                "feature_value": 0.004509375,
+                "shap_value": -0.009009730779866817,
+                "impact": "Decreases predicted default probability"
+            }
+        ]
+    },
+    {
+        "borrower_sample": 6,
+        "predicted_default_probability": 0.03410108759999275,
+        "top_feature_explanations": [
+            {
+                "feature": "severe_delinquency_months",
+                "feature_value": 0.0,
+                "shap_value": -0.03238338916020188,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "LIMIT_BAL",
+                "feature_value": 360000.0,
+                "shap_value": -0.03225148410275773,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "max_delinquency",
+                "feature_value": 0.0,
+                "shap_value": -0.032083250236795306,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "PAY_0",
+                "feature_value": 0.0,
+                "shap_value": -0.024509458166157336,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "PAY_AMT1",
+                "feature_value": 10000.0,
+                "shap_value": -0.02353597237785096,
+                "impact": "Decreases predicted default probability"
+            }
+        ]
+    },
+    {
+        "borrower_sample": 7,
+        "predicted_default_probability": 0.052437733858823776,
+        "top_feature_explanations": [
+            {
+                "feature": "max_delinquency",
+                "feature_value": 0.0,
+                "shap_value": -0.03284669253140926,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "average_payment",
+                "feature_value": 46536.0,
+                "shap_value": -0.02523918969186714,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "PAY_AMT1",
+                "feature_value": 18734.0,
+                "shap_value": -0.024749647937049122,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "credit_utilisation",
+                "feature_value": 0.13863666666666666,
+                "shap_value": -0.02208915284562172,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "PAY_0",
+                "feature_value": -1.0,
+                "shap_value": -0.019282868357572775,
+                "impact": "Decreases predicted default probability"
+            }
+        ]
+    },
+    {
+        "borrower_sample": 8,
+        "predicted_default_probability": 0.07078150659799576,
+        "top_feature_explanations": [
+            {
+                "feature": "max_delinquency",
+                "feature_value": 0.0,
+                "shap_value": -0.0368304684525832,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "PAY_0",
+                "feature_value": 0.0,
+                "shap_value": -0.0367126724594574,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "LIMIT_BAL",
+                "feature_value": 250000.0,
+                "shap_value": -0.026560671344151413,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "PAY_AMT1",
+                "feature_value": 10000.0,
+                "shap_value": -0.0263754342910069,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "PAY_AMT2",
+                "feature_value": 8300.0,
+                "shap_value": -0.022396079700557715,
+                "impact": "Decreases predicted default probability"
+            }
+        ]
+    },
+    {
+        "borrower_sample": 9,
+        "predicted_default_probability": 0.31426653265953064,
+        "top_feature_explanations": [
+            {
+                "feature": "max_delinquency",
+                "feature_value": 0.0,
+                "shap_value": -0.03187531321921529,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "LIMIT_BAL",
+                "feature_value": 10000.0,
+                "shap_value": 0.030864249990482158,
+                "impact": "Increases predicted default probability"
+            },
+            {
+                "feature": "credit_utilisation",
+                "feature_value": 0.8439666666666666,
+                "shap_value": 0.024462406289965426,
+                "impact": "Increases predicted default probability"
+            },
+            {
+                "feature": "AGE",
+                "feature_value": 59.0,
+                "shap_value": 0.019321517536584062,
+                "impact": "Increases predicted default probability"
+            },
+            {
+                "feature": "severe_delinquency_months",
+                "feature_value": 0.0,
+                "shap_value": -0.017259898039867286,
+                "impact": "Decreases predicted default probability"
+            }
+        ]
+    },
+    {
+        "borrower_sample": 10,
+        "predicted_default_probability": 0.02279628813266754,
+        "top_feature_explanations": [
+            {
+                "feature": "max_delinquency",
+                "feature_value": 0.0,
+                "shap_value": -0.03476266752750477,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "PAY_AMT2",
+                "feature_value": 47003.0,
+                "shap_value": -0.034116850413730124,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "PAY_AMT1",
+                "feature_value": 55614.0,
+                "shap_value": -0.03003110816862041,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "PAY_0",
+                "feature_value": -1.0,
+                "shap_value": -0.028871031604719235,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "maximum_bill",
+                "feature_value": 71063.0,
+                "shap_value": -0.02375526877183575,
+                "impact": "Decreases predicted default probability"
+            }
+        ]
+    },
+    {
+        "borrower_sample": 11,
+        "predicted_default_probability": 0.19562757015228271,
+        "top_feature_explanations": [
+            {
+                "feature": "max_delinquency",
+                "feature_value": 2.0,
+                "shap_value": 0.037387158693027736,
+                "impact": "Increases predicted default probability"
+            },
+            {
+                "feature": "PAY_0",
+                "feature_value": 0.0,
+                "shap_value": -0.035446819620897664,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "maximum_bill",
+                "feature_value": 82105.0,
+                "shap_value": -0.021114886668259353,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "LIMIT_BAL",
+                "feature_value": 200000.0,
+                "shap_value": -0.02045125744636486,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "PAY_AMT1",
+                "feature_value": 6808.0,
+                "shap_value": -0.0161160070920292,
+                "impact": "Decreases predicted default probability"
+            }
+        ]
+    },
+    {
+        "borrower_sample": 12,
+        "predicted_default_probability": 0.05329680070281029,
+        "top_feature_explanations": [
+            {
+                "feature": "PAY_0",
+                "feature_value": 0.0,
+                "shap_value": -0.03421274841356263,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "max_delinquency",
+                "feature_value": 0.0,
+                "shap_value": -0.02923476731368881,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "PAY_AMT1",
+                "feature_value": 7000.0,
+                "shap_value": -0.02585237255980537,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "LIMIT_BAL",
+                "feature_value": 180000.0,
+                "shap_value": -0.02437681567578014,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "bill_change_recent",
+                "feature_value": 3276.0,
+                "shap_value": -0.018485902444320162,
+                "impact": "Decreases predicted default probability"
+            }
+        ]
+    },
+    {
+        "borrower_sample": 13,
+        "predicted_default_probability": 0.5572946071624756,
+        "top_feature_explanations": [
+            {
+                "feature": "max_delinquency",
+                "feature_value": 2.0,
+                "shap_value": 0.08554605092678919,
+                "impact": "Increases predicted default probability"
+            },
+            {
+                "feature": "severe_delinquency_months",
+                "feature_value": 5.0,
+                "shap_value": 0.06133481798678261,
+                "impact": "Increases predicted default probability"
+            },
+            {
+                "feature": "avg_repayment_status",
+                "feature_value": 1.8333333333333333,
+                "shap_value": 0.03762474410480879,
+                "impact": "Increases predicted default probability"
+            },
+            {
+                "feature": "recent_delinquency",
+                "feature_value": 1.0,
+                "shap_value": 0.03401856138958586,
+                "impact": "Increases predicted default probability"
+            },
+            {
+                "feature": "late_payment_months",
+                "feature_value": 6.0,
+                "shap_value": 0.025481506146649013,
+                "impact": "Increases predicted default probability"
+            }
+        ]
+    },
+    {
+        "borrower_sample": 14,
+        "predicted_default_probability": 0.13091427087783813,
+        "top_feature_explanations": [
+            {
+                "feature": "PAY_AMT2",
+                "feature_value": 15000.0,
+                "shap_value": -0.022453572018856435,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "max_delinquency",
+                "feature_value": 0.0,
+                "shap_value": -0.019831859931411584,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "average_payment",
+                "feature_value": 14880.5,
+                "shap_value": -0.016797285482284187,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "LIMIT_BAL",
+                "feature_value": 380000.0,
+                "shap_value": -0.016481634938339068,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "PAY_0",
+                "feature_value": 0.0,
+                "shap_value": -0.015133167896987926,
+                "impact": "Decreases predicted default probability"
+            }
+        ]
+    },
+    {
+        "borrower_sample": 15,
+        "predicted_default_probability": 0.17903514206409454,
+        "top_feature_explanations": [
+            {
+                "feature": "credit_utilisation",
+                "feature_value": 0.8645519230769231,
+                "shap_value": 0.05208994900280195,
+                "impact": "Increases predicted default probability"
+            },
+            {
+                "feature": "max_delinquency",
+                "feature_value": 0.0,
+                "shap_value": -0.023410169998682524,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "PAY_AMT2",
+                "feature_value": 10000.0,
+                "shap_value": -0.01867832899163505,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "PAY_AMT1",
+                "feature_value": 11500.0,
+                "shap_value": -0.01812589937463482,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "PAY_0",
+                "feature_value": 0.0,
+                "shap_value": -0.012837665940268608,
+                "impact": "Decreases predicted default probability"
+            }
+        ]
+    },
+    {
+        "borrower_sample": 16,
+        "predicted_default_probability": 0.3522118628025055,
+        "top_feature_explanations": [
+            {
+                "feature": "max_delinquency",
+                "feature_value": 2.0,
+                "shap_value": 0.052336462426282655,
+                "impact": "Increases predicted default probability"
+            },
+            {
+                "feature": "PAY_0",
+                "feature_value": 0.0,
+                "shap_value": -0.02884771600934471,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "PAY_AMT3",
+                "feature_value": 0.0,
+                "shap_value": 0.017883324991582714,
+                "impact": "Increases predicted default probability"
+            },
+            {
+                "feature": "bill_change_recent",
+                "feature_value": -1257.0,
+                "shap_value": 0.013720435490442474,
+                "impact": "Increases predicted default probability"
+            },
+            {
+                "feature": "PAY_AMT6",
+                "feature_value": 0.0,
+                "shap_value": 0.012733422655086474,
+                "impact": "Increases predicted default probability"
+            }
+        ]
+    },
+    {
+        "borrower_sample": 17,
+        "predicted_default_probability": 0.5507400035858154,
+        "top_feature_explanations": [
+            {
+                "feature": "max_delinquency",
+                "feature_value": 2.0,
+                "shap_value": 0.09867842719489524,
+                "impact": "Increases predicted default probability"
+            },
+            {
+                "feature": "severe_delinquency_months",
+                "feature_value": 3.0,
+                "shap_value": 0.04997789820629244,
+                "impact": "Increases predicted default probability"
+            },
+            {
+                "feature": "avg_repayment_status",
+                "feature_value": 1.1666666666666667,
+                "shap_value": 0.028609360371006625,
+                "impact": "Increases predicted default probability"
+            },
+            {
+                "feature": "BILL_AMT1",
+                "feature_value": 5999.0,
+                "shap_value": 0.02619569933572255,
+                "impact": "Increases predicted default probability"
+            },
+            {
+                "feature": "PAY_AMT2",
+                "feature_value": 1416.0,
+                "shap_value": 0.020198147504190654,
+                "impact": "Increases predicted default probability"
+            }
+        ]
+    },
+    {
+        "borrower_sample": 18,
+        "predicted_default_probability": 0.13394266366958618,
+        "top_feature_explanations": [
+            {
+                "feature": "PAY_AMT1",
+                "feature_value": 6806.0,
+                "shap_value": -0.028124986688636253,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "PAY_0",
+                "feature_value": 0.0,
+                "shap_value": -0.018801549117087476,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "PAY_AMT2",
+                "feature_value": 4744.0,
+                "shap_value": -0.016259542505431317,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "severe_delinquency_months",
+                "feature_value": 0.0,
+                "shap_value": -0.013959358154099162,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "max_delinquency",
+                "feature_value": 0.0,
+                "shap_value": -0.013467708722679245,
+                "impact": "Decreases predicted default probability"
+            }
+        ]
+    },
+    {
+        "borrower_sample": 19,
+        "predicted_default_probability": 0.2938148081302643,
+        "top_feature_explanations": [
+            {
+                "feature": "max_delinquency",
+                "feature_value": 2.0,
+                "shap_value": 0.02855422304296209,
+                "impact": "Increases predicted default probability"
+            },
+            {
+                "feature": "bill_change_recent",
+                "feature_value": -1624.0,
+                "shap_value": 0.017799624227314913,
+                "impact": "Increases predicted default probability"
+            },
+            {
+                "feature": "PAY_AMT3",
+                "feature_value": 1000.0,
+                "shap_value": -0.01603533263989145,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "LIMIT_BAL",
+                "feature_value": 60000.0,
+                "shap_value": 0.014193869619056516,
+                "impact": "Increases predicted default probability"
+            },
+            {
+                "feature": "AGE",
+                "feature_value": 29.0,
+                "shap_value": -0.012057478879788253,
+                "impact": "Decreases predicted default probability"
+            }
+        ]
+    },
+    {
+        "borrower_sample": 20,
+        "predicted_default_probability": 0.12337866425514221,
+        "top_feature_explanations": [
+            {
+                "feature": "severe_delinquency_months",
+                "feature_value": 0.0,
+                "shap_value": -0.023308641812658844,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "credit_utilisation",
+                "feature_value": 0.07402820512820513,
+                "shap_value": -0.017685660568915875,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "maximum_payment",
+                "feature_value": 5396.0,
+                "shap_value": -0.017490707596995416,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "average_payment",
+                "feature_value": 2899.5,
+                "shap_value": -0.0170667167741885,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "total_payment",
+                "feature_value": 17397.0,
+                "shap_value": -0.015058925325983737,
+                "impact": "Decreases predicted default probability"
+            }
+        ]
+    },
+    {
+        "borrower_sample": 21,
+        "predicted_default_probability": 0.10604235529899597,
+        "top_feature_explanations": [
+            {
+                "feature": "max_delinquency",
+                "feature_value": 0.0,
+                "shap_value": -0.03322842935400003,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "PAY_0",
+                "feature_value": 0.0,
+                "shap_value": -0.019451479711196623,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "average_payment",
+                "feature_value": 2950.1666666666665,
+                "shap_value": -0.015507816986745379,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "late_payment_months",
+                "feature_value": 0.0,
+                "shap_value": -0.01450877877560774,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "bill_change_recent",
+                "feature_value": 9695.0,
+                "shap_value": -0.01278143545846085,
+                "impact": "Decreases predicted default probability"
+            }
+        ]
+    },
+    {
+        "borrower_sample": 22,
+        "predicted_default_probability": 0.5325425267219543,
+        "top_feature_explanations": [
+            {
+                "feature": "maximum_bill",
+                "feature_value": 0.0,
+                "shap_value": 0.048381066065974705,
+                "impact": "Increases predicted default probability"
+            },
+            {
+                "feature": "AGE",
+                "feature_value": 51.0,
+                "shap_value": 0.03885481456346622,
+                "impact": "Increases predicted default probability"
+            },
+            {
+                "feature": "maximum_payment",
+                "feature_value": 0.0,
+                "shap_value": 0.035619969623390285,
+                "impact": "Increases predicted default probability"
+            },
+            {
+                "feature": "BILL_AMT1",
+                "feature_value": 0.0,
+                "shap_value": 0.03515350714767142,
+                "impact": "Increases predicted default probability"
+            },
+            {
+                "feature": "PAY_AMT1",
+                "feature_value": 0.0,
+                "shap_value": 0.03174018251895545,
+                "impact": "Increases predicted default probability"
+            }
+        ]
+    },
+    {
+        "borrower_sample": 23,
+        "predicted_default_probability": 0.11979150027036667,
+        "top_feature_explanations": [
+            {
+                "feature": "PAY_0",
+                "feature_value": 0.0,
+                "shap_value": -0.022653483714230475,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "PAY_4",
+                "feature_value": 0.0,
+                "shap_value": -0.020658257891197435,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "max_delinquency",
+                "feature_value": 0.0,
+                "shap_value": -0.017515076036804533,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "BILL_AMT5",
+                "feature_value": 70468.0,
+                "shap_value": -0.015930825871647132,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "payment_trend",
+                "feature_value": 1061.0,
+                "shap_value": -0.014347901390037549,
+                "impact": "Decreases predicted default probability"
+            }
+        ]
+    },
+    {
+        "borrower_sample": 24,
+        "predicted_default_probability": 0.15029770135879517,
+        "top_feature_explanations": [
+            {
+                "feature": "max_delinquency",
+                "feature_value": -2.0,
+                "shap_value": -0.026128079715178658,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "credit_utilisation",
+                "feature_value": 0.002058333333333333,
+                "shap_value": -0.016305993617526236,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "AGE",
+                "feature_value": 25.0,
+                "shap_value": -0.014868863067695512,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "PAY_0",
+                "feature_value": -2.0,
+                "shap_value": -0.010864024129754148,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "avg_repayment_status",
+                "feature_value": -2.0,
+                "shap_value": -0.010207007898174908,
+                "impact": "Decreases predicted default probability"
+            }
+        ]
+    },
+    {
+        "borrower_sample": 25,
+        "predicted_default_probability": 0.3297496438026428,
+        "top_feature_explanations": [
+            {
+                "feature": "max_delinquency",
+                "feature_value": 2.0,
+                "shap_value": 0.06754587708230968,
+                "impact": "Increases predicted default probability"
+            },
+            {
+                "feature": "bill_change_recent",
+                "feature_value": 4687.0,
+                "shap_value": -0.023711928992427918,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "recent_delinquency",
+                "feature_value": 1.0,
+                "shap_value": 0.021387604061180707,
+                "impact": "Increases predicted default probability"
+            },
+            {
+                "feature": "BILL_AMT1",
+                "feature_value": 20530.0,
+                "shap_value": -0.017123069934036044,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "LIMIT_BAL",
+                "feature_value": 50000.0,
+                "shap_value": 0.017045775574728157,
+                "impact": "Increases predicted default probability"
+            }
+        ]
+    },
+    {
+        "borrower_sample": 26,
+        "predicted_default_probability": 0.07412266731262207,
+        "top_feature_explanations": [
+            {
+                "feature": "max_delinquency",
+                "feature_value": 0.0,
+                "shap_value": -0.042070487337929514,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "PAY_0",
+                "feature_value": 0.0,
+                "shap_value": -0.027825639967061794,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "BILL_AMT1",
+                "feature_value": 43175.0,
+                "shap_value": -0.02673459016584854,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "late_payment_months",
+                "feature_value": 0.0,
+                "shap_value": -0.013872660087050875,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "credit_utilisation",
+                "feature_value": 0.4186783333333334,
+                "shap_value": -0.013848569957672245,
+                "impact": "Decreases predicted default probability"
+            }
+        ]
+    },
+    {
+        "borrower_sample": 27,
+        "predicted_default_probability": 0.06433893740177155,
+        "top_feature_explanations": [
+            {
+                "feature": "max_delinquency",
+                "feature_value": 0.0,
+                "shap_value": -0.035632096645349255,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "LIMIT_BAL",
+                "feature_value": 280000.0,
+                "shap_value": -0.030292958319519392,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "PAY_0",
+                "feature_value": 0.0,
+                "shap_value": -0.025903349302729823,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "PAY_AMT1",
+                "feature_value": 5000.0,
+                "shap_value": -0.01759300011736414,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "recent_delinquency",
+                "feature_value": 0.0,
+                "shap_value": -0.01674268682329191,
+                "impact": "Decreases predicted default probability"
+            }
+        ]
+    },
+    {
+        "borrower_sample": 28,
+        "predicted_default_probability": 0.1485663652420044,
+        "top_feature_explanations": [
+            {
+                "feature": "PAY_0",
+                "feature_value": 0.0,
+                "shap_value": -0.028169533074387475,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "BILL_AMT1",
+                "feature_value": 23526.0,
+                "shap_value": -0.016103243423087357,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "bill_change_recent",
+                "feature_value": 11339.0,
+                "shap_value": -0.01093624007336073,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "PAY_AMT1",
+                "feature_value": 7005.0,
+                "shap_value": -0.01084106627226886,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "BILL_AMT6",
+                "feature_value": 800.0,
+                "shap_value": -0.009398932644098225,
+                "impact": "Decreases predicted default probability"
+            }
+        ]
+    },
+    {
+        "borrower_sample": 29,
+        "predicted_default_probability": 0.07485321164131165,
+        "top_feature_explanations": [
+            {
+                "feature": "max_delinquency",
+                "feature_value": 0.0,
+                "shap_value": -0.03793499791183108,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "PAY_0",
+                "feature_value": 0.0,
+                "shap_value": -0.02001221051193805,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "BILL_AMT5",
+                "feature_value": 73360.0,
+                "shap_value": -0.016723281760980216,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "severe_delinquency_months",
+                "feature_value": 0.0,
+                "shap_value": -0.015334910575714542,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "BILL_AMT1",
+                "feature_value": 92924.0,
+                "shap_value": -0.01533358429185237,
+                "impact": "Decreases predicted default probability"
+            }
+        ]
+    },
+    {
+        "borrower_sample": 30,
+        "predicted_default_probability": 0.1390705704689026,
+        "top_feature_explanations": [
+            {
+                "feature": "max_delinquency",
+                "feature_value": 0.0,
+                "shap_value": -0.03477610241982851,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "PAY_AMT1",
+                "feature_value": 52498.0,
+                "shap_value": -0.026397858339584045,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "PAY_0",
+                "feature_value": -1.0,
+                "shap_value": -0.014226052462323759,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "severe_delinquency_months",
+                "feature_value": 0.0,
+                "shap_value": -0.011918809482090169,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "total_bill",
+                "feature_value": 143648.0,
+                "shap_value": -0.005652631175725108,
+                "impact": "Decreases predicted default probability"
+            }
+        ]
+    },
+    {
+        "borrower_sample": 31,
+        "predicted_default_probability": 0.06935697048902512,
+        "top_feature_explanations": [
+            {
+                "feature": "max_delinquency",
+                "feature_value": -1.0,
+                "shap_value": -0.03278980520535866,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "PAY_AMT1",
+                "feature_value": 7065.0,
+                "shap_value": -0.029220930834855816,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "PAY_0",
+                "feature_value": -1.0,
+                "shap_value": -0.024076945613241328,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "credit_utilisation",
+                "feature_value": 0.018554166666666667,
+                "shap_value": -0.022402774832400565,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "PAY_AMT2",
+                "feature_value": 13046.0,
+                "shap_value": -0.01933815729391604,
+                "impact": "Decreases predicted default probability"
+            }
+        ]
+    },
+    {
+        "borrower_sample": 32,
+        "predicted_default_probability": 0.1276630163192749,
+        "top_feature_explanations": [
+            {
+                "feature": "max_delinquency",
+                "feature_value": 0.0,
+                "shap_value": -0.0360375570920028,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "credit_utilisation",
+                "feature_value": 0.21642142857142857,
+                "shap_value": -0.016763292557650012,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "PAY_0",
+                "feature_value": 0.0,
+                "shap_value": -0.01652583556930433,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "maximum_payment",
+                "feature_value": 2400.0,
+                "shap_value": -0.011371094342302728,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "PAY_AMT3",
+                "feature_value": 1600.0,
+                "shap_value": -0.011219127350190207,
+                "impact": "Decreases predicted default probability"
+            }
+        ]
+    },
+    {
+        "borrower_sample": 33,
+        "predicted_default_probability": 0.7660117745399475,
+        "top_feature_explanations": [
+            {
+                "feature": "PAY_0",
+                "feature_value": 2.0,
+                "shap_value": 0.19218305989945386,
+                "impact": "Increases predicted default probability"
+            },
+            {
+                "feature": "max_delinquency",
+                "feature_value": 2.0,
+                "shap_value": 0.1270186952106836,
+                "impact": "Increases predicted default probability"
+            },
+            {
+                "feature": "severe_delinquency_months",
+                "feature_value": 3.0,
+                "shap_value": 0.05448236774415125,
+                "impact": "Increases predicted default probability"
+            },
+            {
+                "feature": "recent_delinquency",
+                "feature_value": 1.0,
+                "shap_value": 0.04017562192251561,
+                "impact": "Increases predicted default probability"
+            },
+            {
+                "feature": "payment_to_bill_ratio",
+                "feature_value": 0.05784056727059023,
+                "shap_value": 0.03542593624701146,
+                "impact": "Increases predicted default probability"
+            }
+        ]
+    },
+    {
+        "borrower_sample": 34,
+        "predicted_default_probability": 0.10838396847248077,
+        "top_feature_explanations": [
+            {
+                "feature": "max_delinquency",
+                "feature_value": 0.0,
+                "shap_value": -0.031296464638900706,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "PAY_0",
+                "feature_value": 0.0,
+                "shap_value": -0.024023200601630733,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "BILL_AMT1",
+                "feature_value": 47871.0,
+                "shap_value": -0.022220287569118664,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "maximum_payment",
+                "feature_value": 20300.0,
+                "shap_value": -0.013104954874388184,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "bill_change_recent",
+                "feature_value": 3325.0,
+                "shap_value": -0.009685861182706734,
+                "impact": "Decreases predicted default probability"
+            }
+        ]
+    },
+    {
+        "borrower_sample": 35,
+        "predicted_default_probability": 0.07884427160024643,
+        "top_feature_explanations": [
+            {
+                "feature": "PAY_0",
+                "feature_value": 0.0,
+                "shap_value": -0.023073853389386795,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "PAY_AMT3",
+                "feature_value": 8058.0,
+                "shap_value": -0.02048930596234041,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "PAY_AMT6",
+                "feature_value": 5000.0,
+                "shap_value": -0.02011396630781165,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "PAY_AMT2",
+                "feature_value": 5003.0,
+                "shap_value": -0.01977378252428205,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "PAY_AMT1",
+                "feature_value": 15037.0,
+                "shap_value": -0.01879940602268697,
+                "impact": "Decreases predicted default probability"
+            }
+        ]
+    },
+    {
+        "borrower_sample": 36,
+        "predicted_default_probability": 0.15098446607589722,
+        "top_feature_explanations": [
+            {
+                "feature": "max_delinquency",
+                "feature_value": 0.0,
+                "shap_value": -0.0283656647154483,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "PAY_0",
+                "feature_value": 0.0,
+                "shap_value": -0.023595504513613898,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "credit_utilisation",
+                "feature_value": 0.6487633333333334,
+                "shap_value": 0.020521203526473908,
+                "impact": "Increases predicted default probability"
+            },
+            {
+                "feature": "severe_delinquency_months",
+                "feature_value": 0.0,
+                "shap_value": -0.014258011087422149,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "AGE",
+                "feature_value": 29.0,
+                "shap_value": -0.011435118293560085,
+                "impact": "Decreases predicted default probability"
+            }
+        ]
+    },
+    {
+        "borrower_sample": 37,
+        "predicted_default_probability": 0.09130128473043442,
+        "top_feature_explanations": [
+            {
+                "feature": "credit_utilisation",
+                "feature_value": 0.021974637681159422,
+                "shap_value": -0.025373499496848882,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "PAY_AMT2",
+                "feature_value": 4000.0,
+                "shap_value": -0.024897423728614528,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "max_delinquency",
+                "feature_value": -1.0,
+                "shap_value": -0.02412829599115008,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "PAY_AMT1",
+                "feature_value": 19686.0,
+                "shap_value": -0.022653455549954817,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "PAY_2",
+                "feature_value": -1.0,
+                "shap_value": -0.01717985458766702,
+                "impact": "Decreases predicted default probability"
+            }
+        ]
+    },
+    {
+        "borrower_sample": 38,
+        "predicted_default_probability": 0.4115004539489746,
+        "top_feature_explanations": [
+            {
+                "feature": "LIMIT_BAL",
+                "feature_value": 450000.0,
+                "shap_value": 0.043467066103737316,
+                "impact": "Increases predicted default probability"
+            },
+            {
+                "feature": "maximum_payment",
+                "feature_value": 0.0,
+                "shap_value": 0.034351969029153016,
+                "impact": "Increases predicted default probability"
+            },
+            {
+                "feature": "maximum_bill",
+                "feature_value": 0.0,
+                "shap_value": 0.0331832588069059,
+                "impact": "Increases predicted default probability"
+            },
+            {
+                "feature": "BILL_AMT1",
+                "feature_value": 0.0,
+                "shap_value": 0.03151520955267427,
+                "impact": "Increases predicted default probability"
+            },
+            {
+                "feature": "credit_utilisation",
+                "feature_value": 0.0,
+                "shap_value": -0.024986374637298133,
+                "impact": "Decreases predicted default probability"
+            }
+        ]
+    },
+    {
+        "borrower_sample": 39,
+        "predicted_default_probability": 0.3264910876750946,
+        "top_feature_explanations": [
+            {
+                "feature": "PAY_AMT1",
+                "feature_value": 0.0,
+                "shap_value": 0.020945557835563514,
+                "impact": "Increases predicted default probability"
+            },
+            {
+                "feature": "AGE",
+                "feature_value": 52.0,
+                "shap_value": 0.014252491848746838,
+                "impact": "Increases predicted default probability"
+            },
+            {
+                "feature": "BILL_AMT1",
+                "feature_value": 0.0,
+                "shap_value": 0.009978684227604527,
+                "impact": "Increases predicted default probability"
+            },
+            {
+                "feature": "maximum_bill",
+                "feature_value": 0.0,
+                "shap_value": 0.008391393935225143,
+                "impact": "Increases predicted default probability"
+            },
+            {
+                "feature": "recent_delinquency",
+                "feature_value": 1.0,
+                "shap_value": 0.007213501598037043,
+                "impact": "Increases predicted default probability"
+            }
+        ]
+    },
+    {
+        "borrower_sample": 40,
+        "predicted_default_probability": 0.13421328365802765,
+        "top_feature_explanations": [
+            {
+                "feature": "max_delinquency",
+                "feature_value": 0.0,
+                "shap_value": -0.023709034754109775,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "BILL_AMT5",
+                "feature_value": 69190.0,
+                "shap_value": -0.017981734894036663,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "PAY_AMT1",
+                "feature_value": 10200.0,
+                "shap_value": -0.01661356225786767,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "PAY_0",
+                "feature_value": 0.0,
+                "shap_value": -0.01533927288221154,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "BILL_AMT1",
+                "feature_value": 73606.0,
+                "shap_value": -0.011748969041124772,
+                "impact": "Decreases predicted default probability"
+            }
+        ]
+    },
+    {
+        "borrower_sample": 41,
+        "predicted_default_probability": 0.11647561192512512,
+        "top_feature_explanations": [
+            {
+                "feature": "max_delinquency",
+                "feature_value": 0.0,
+                "shap_value": -0.03560937973732891,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "PAY_0",
+                "feature_value": 0.0,
+                "shap_value": -0.029089854954328805,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "PAY_6",
+                "feature_value": 0.0,
+                "shap_value": -0.014490140057253187,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "BILL_AMT5",
+                "feature_value": 28770.0,
+                "shap_value": -0.01351284062575247,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "maximum_bill",
+                "feature_value": 45163.0,
+                "shap_value": -0.01197123518845068,
+                "impact": "Decreases predicted default probability"
+            }
+        ]
+    },
+    {
+        "borrower_sample": 42,
+        "predicted_default_probability": 0.12288814038038254,
+        "top_feature_explanations": [
+            {
+                "feature": "max_delinquency",
+                "feature_value": -1.0,
+                "shap_value": -0.025478286736074423,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "credit_utilisation",
+                "feature_value": 0.007488666666666667,
+                "shap_value": -0.018449770703676524,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "PAY_0",
+                "feature_value": -2.0,
+                "shap_value": -0.01633218636703134,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "LIMIT_BAL",
+                "feature_value": 250000.0,
+                "shap_value": -0.015264295675412737,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "avg_repayment_status",
+                "feature_value": -1.6666666666666667,
+                "shap_value": -0.011688008020711665,
+                "impact": "Decreases predicted default probability"
+            }
+        ]
+    },
+    {
+        "borrower_sample": 43,
+        "predicted_default_probability": 0.7207412719726562,
+        "top_feature_explanations": [
+            {
+                "feature": "PAY_0",
+                "feature_value": 2.0,
+                "shap_value": 0.1642959911259308,
+                "impact": "Increases predicted default probability"
+            },
+            {
+                "feature": "max_delinquency",
+                "feature_value": 2.0,
+                "shap_value": 0.07670637554491291,
+                "impact": "Increases predicted default probability"
+            },
+            {
+                "feature": "severe_delinquency_months",
+                "feature_value": 3.0,
+                "shap_value": 0.07179451996050176,
+                "impact": "Increases predicted default probability"
+            },
+            {
+                "feature": "recent_delinquency",
+                "feature_value": 1.0,
+                "shap_value": 0.04215828454669618,
+                "impact": "Increases predicted default probability"
+            },
+            {
+                "feature": "PAY_AMT2",
+                "feature_value": 158.0,
+                "shap_value": 0.036453096869646165,
+                "impact": "Increases predicted default probability"
+            }
+        ]
+    },
+    {
+        "borrower_sample": 44,
+        "predicted_default_probability": 0.1828158050775528,
+        "top_feature_explanations": [
+            {
+                "feature": "max_delinquency",
+                "feature_value": -2.0,
+                "shap_value": -0.025297084545931665,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "PAY_AMT3",
+                "feature_value": 0.0,
+                "shap_value": 0.01889711379980487,
+                "impact": "Increases predicted default probability"
+            },
+            {
+                "feature": "avg_repayment_status",
+                "feature_value": -2.0,
+                "shap_value": -0.01642654500415559,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "severe_delinquency_months",
+                "feature_value": 0.0,
+                "shap_value": -0.015293409900838212,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "PAY_0",
+                "feature_value": -2.0,
+                "shap_value": -0.012361439029281579,
+                "impact": "Decreases predicted default probability"
+            }
+        ]
+    },
+    {
+        "borrower_sample": 45,
+        "predicted_default_probability": 0.21457313001155853,
+        "top_feature_explanations": [
+            {
+                "feature": "BILL_AMT5",
+                "feature_value": 0.0,
+                "shap_value": 0.024697107497545494,
+                "impact": "Increases predicted default probability"
+            },
+            {
+                "feature": "BILL_AMT1",
+                "feature_value": 30900.0,
+                "shap_value": -0.019815186777933685,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "AGE",
+                "feature_value": 55.0,
+                "shap_value": 0.01743525255299524,
+                "impact": "Increases predicted default probability"
+            },
+            {
+                "feature": "maximum_bill",
+                "feature_value": 30900.0,
+                "shap_value": -0.016248568315967292,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "max_delinquency",
+                "feature_value": 0.0,
+                "shap_value": -0.014141743524042108,
+                "impact": "Decreases predicted default probability"
+            }
+        ]
+    },
+    {
+        "borrower_sample": 46,
+        "predicted_default_probability": 0.20241430401802063,
+        "top_feature_explanations": [
+            {
+                "feature": "AGE",
+                "feature_value": 57.0,
+                "shap_value": 0.04119575348242929,
+                "impact": "Increases predicted default probability"
+            },
+            {
+                "feature": "credit_utilisation",
+                "feature_value": 0.0001647058823529412,
+                "shap_value": -0.030142698905571665,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "max_delinquency",
+                "feature_value": 0.0,
+                "shap_value": -0.015213255958003123,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "PAY_AMT3",
+                "feature_value": 792.0,
+                "shap_value": -0.008944542312575379,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "payment_to_bill_ratio",
+                "feature_value": 0.9263392857142857,
+                "shap_value": -0.008353593292182658,
+                "impact": "Decreases predicted default probability"
+            }
+        ]
+    },
+    {
+        "borrower_sample": 47,
+        "predicted_default_probability": 0.14774949848651886,
+        "top_feature_explanations": [
+            {
+                "feature": "PAY_0",
+                "feature_value": 0.0,
+                "shap_value": -0.026002842501464663,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "max_delinquency",
+                "feature_value": 0.0,
+                "shap_value": -0.01569185648380016,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "credit_utilisation",
+                "feature_value": 0.3388307692307692,
+                "shap_value": -0.014537665952741636,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "maximum_payment",
+                "feature_value": 6000.0,
+                "shap_value": -0.011587638792475947,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "late_payment_months",
+                "feature_value": 0.0,
+                "shap_value": -0.011507484317022127,
+                "impact": "Decreases predicted default probability"
+            }
+        ]
+    },
+    {
+        "borrower_sample": 48,
+        "predicted_default_probability": 0.6639147400856018,
+        "top_feature_explanations": [
+            {
+                "feature": "PAY_0",
+                "feature_value": 2.0,
+                "shap_value": 0.15173462245057068,
+                "impact": "Increases predicted default probability"
+            },
+            {
+                "feature": "max_delinquency",
+                "feature_value": 2.0,
+                "shap_value": 0.09263721271040476,
+                "impact": "Increases predicted default probability"
+            },
+            {
+                "feature": "severe_delinquency_months",
+                "feature_value": 3.0,
+                "shap_value": 0.04218456052485771,
+                "impact": "Increases predicted default probability"
+            },
+            {
+                "feature": "late_payment_months",
+                "feature_value": 3.0,
+                "shap_value": 0.028980926252254006,
+                "impact": "Increases predicted default probability"
+            },
+            {
+                "feature": "credit_utilisation",
+                "feature_value": 0.9139095238095237,
+                "shap_value": 0.02495521366975863,
+                "impact": "Increases predicted default probability"
+            }
+        ]
+    },
+    {
+        "borrower_sample": 49,
+        "predicted_default_probability": 0.07220137119293213,
+        "top_feature_explanations": [
+            {
+                "feature": "PAY_AMT2",
+                "feature_value": 20088.0,
+                "shap_value": -0.03607963485202356,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "max_delinquency",
+                "feature_value": 0.0,
+                "shap_value": -0.029104432479384233,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "PAY_0",
+                "feature_value": 0.0,
+                "shap_value": -0.01859160090041972,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "credit_utilisation",
+                "feature_value": 0.42683666666666664,
+                "shap_value": -0.01727676869379791,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "MARRIAGE",
+                "feature_value": 2.0,
+                "shap_value": -0.015934091312580407,
+                "impact": "Decreases predicted default probability"
+            }
+        ]
+    },
+    {
+        "borrower_sample": 50,
+        "predicted_default_probability": 0.09818809479475021,
+        "top_feature_explanations": [
+            {
+                "feature": "max_delinquency",
+                "feature_value": 0.0,
+                "shap_value": -0.03681792608345457,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "PAY_0",
+                "feature_value": 0.0,
+                "shap_value": -0.02509304240484537,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "severe_delinquency_months",
+                "feature_value": 0.0,
+                "shap_value": -0.017189379913476254,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "credit_utilisation",
+                "feature_value": 0.3747527777777778,
+                "shap_value": -0.016216336680267767,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "payment_trend",
+                "feature_value": 533.0,
+                "shap_value": -0.014061470687193937,
+                "impact": "Decreases predicted default probability"
+            }
+        ]
+    },
+    {
+        "borrower_sample": 51,
+        "predicted_default_probability": 0.14922372996807098,
+        "top_feature_explanations": [
+            {
+                "feature": "severe_delinquency_months",
+                "feature_value": 0.0,
+                "shap_value": -0.017895976968748582,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "bill_change_recent",
+                "feature_value": 4945.0,
+                "shap_value": -0.013150763656589706,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "max_delinquency",
+                "feature_value": 1.0,
+                "shap_value": -0.012094822328625543,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "payment_to_bill_ratio",
+                "feature_value": 2.1959233195826258,
+                "shap_value": -0.01165824183370524,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "average_payment",
+                "feature_value": 7541.166666666667,
+                "shap_value": -0.00954781517673124,
+                "impact": "Decreases predicted default probability"
+            }
+        ]
+    },
+    {
+        "borrower_sample": 52,
+        "predicted_default_probability": 0.08416027575731277,
+        "top_feature_explanations": [
+            {
+                "feature": "max_delinquency",
+                "feature_value": -2.0,
+                "shap_value": -0.03569529860126866,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "payment_to_bill_ratio",
+                "feature_value": 0.6317260301813932,
+                "shap_value": -0.02355467864510674,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "PAY_0",
+                "feature_value": -2.0,
+                "shap_value": -0.021253266945869598,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "credit_utilisation",
+                "feature_value": 0.016400833333333333,
+                "shap_value": -0.020029701585554734,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "bill_change_recent",
+                "feature_value": 5328.0,
+                "shap_value": -0.01715758267921838,
+                "impact": "Decreases predicted default probability"
+            }
+        ]
+    },
+    {
+        "borrower_sample": 53,
+        "predicted_default_probability": 0.19500592350959778,
+        "top_feature_explanations": [
+            {
+                "feature": "max_delinquency",
+                "feature_value": 2.0,
+                "shap_value": 0.0331788275002489,
+                "impact": "Increases predicted default probability"
+            },
+            {
+                "feature": "PAY_AMT1",
+                "feature_value": 55000.0,
+                "shap_value": -0.027787630569174764,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "PAY_0",
+                "feature_value": 0.0,
+                "shap_value": -0.022547577831513097,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "PAY_AMT2",
+                "feature_value": 5800.0,
+                "shap_value": -0.021224192185521556,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "PAY_AMT3",
+                "feature_value": 0.0,
+                "shap_value": 0.01731478772470817,
+                "impact": "Increases predicted default probability"
+            }
+        ]
+    },
+    {
+        "borrower_sample": 54,
+        "predicted_default_probability": 0.6342368125915527,
+        "top_feature_explanations": [
+            {
+                "feature": "PAY_0",
+                "feature_value": 2.0,
+                "shap_value": 0.19475910231019153,
+                "impact": "Increases predicted default probability"
+            },
+            {
+                "feature": "max_delinquency",
+                "feature_value": 2.0,
+                "shap_value": 0.08293324147519604,
+                "impact": "Increases predicted default probability"
+            },
+            {
+                "feature": "severe_delinquency_months",
+                "feature_value": 1.0,
+                "shap_value": 0.02579429484614673,
+                "impact": "Increases predicted default probability"
+            },
+            {
+                "feature": "PAY_3",
+                "feature_value": 0.0,
+                "shap_value": 0.017361519708271277,
+                "impact": "Increases predicted default probability"
+            },
+            {
+                "feature": "recent_delinquency",
+                "feature_value": 1.0,
+                "shap_value": 0.01600848767293858,
+                "impact": "Increases predicted default probability"
+            }
+        ]
+    },
+    {
+        "borrower_sample": 55,
+        "predicted_default_probability": 0.23783764243125916,
+        "top_feature_explanations": [
+            {
+                "feature": "max_delinquency",
+                "feature_value": 2.0,
+                "shap_value": 0.03939487335299588,
+                "impact": "Increases predicted default probability"
+            },
+            {
+                "feature": "PAY_0",
+                "feature_value": 0.0,
+                "shap_value": -0.03331650851656393,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "bill_change_recent",
+                "feature_value": -2357.0,
+                "shap_value": 0.01998730253122849,
+                "impact": "Increases predicted default probability"
+            },
+            {
+                "feature": "BILL_AMT1",
+                "feature_value": 39245.0,
+                "shap_value": -0.017940539559817986,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "avg_repayment_status",
+                "feature_value": 0.3333333333333333,
+                "shap_value": -0.015824497665840948,
+                "impact": "Decreases predicted default probability"
+            }
+        ]
+    },
+    {
+        "borrower_sample": 56,
+        "predicted_default_probability": 0.13612118363380432,
+        "top_feature_explanations": [
+            {
+                "feature": "credit_utilisation",
+                "feature_value": 0.7126544444444445,
+                "shap_value": 0.024805431262154398,
+                "impact": "Increases predicted default probability"
+            },
+            {
+                "feature": "max_delinquency",
+                "feature_value": 0.0,
+                "shap_value": -0.022716808760068506,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "PAY_AMT1",
+                "feature_value": 6700.0,
+                "shap_value": -0.02105980621894607,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "LIMIT_BAL",
+                "feature_value": 150000.0,
+                "shap_value": -0.01874877092577308,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "PAY_0",
+                "feature_value": 0.0,
+                "shap_value": -0.01653540764675573,
+                "impact": "Decreases predicted default probability"
+            }
+        ]
+    },
+    {
+        "borrower_sample": 57,
+        "predicted_default_probability": 0.6601330637931824,
+        "top_feature_explanations": [
+            {
+                "feature": "PAY_0",
+                "feature_value": 2.0,
+                "shap_value": 0.19791842489471423,
+                "impact": "Increases predicted default probability"
+            },
+            {
+                "feature": "max_delinquency",
+                "feature_value": 2.0,
+                "shap_value": 0.10214575972981822,
+                "impact": "Increases predicted default probability"
+            },
+            {
+                "feature": "payment_to_bill_ratio",
+                "feature_value": 0.10063681976071015,
+                "shap_value": 0.026516644146848265,
+                "impact": "Increases predicted default probability"
+            },
+            {
+                "feature": "recent_delinquency",
+                "feature_value": 1.0,
+                "shap_value": 0.026414482126034186,
+                "impact": "Increases predicted default probability"
+            },
+            {
+                "feature": "LIMIT_BAL",
+                "feature_value": 50000.0,
+                "shap_value": 0.01771475213916951,
+                "impact": "Increases predicted default probability"
+            }
+        ]
+    },
+    {
+        "borrower_sample": 58,
+        "predicted_default_probability": 0.05281268432736397,
+        "top_feature_explanations": [
+            {
+                "feature": "max_delinquency",
+                "feature_value": 0.0,
+                "shap_value": -0.03839041507525647,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "PAY_0",
+                "feature_value": 0.0,
+                "shap_value": -0.030008536574114515,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "LIMIT_BAL",
+                "feature_value": 280000.0,
+                "shap_value": -0.02466489597786672,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "severe_delinquency_months",
+                "feature_value": 0.0,
+                "shap_value": -0.02068829853134383,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "PAY_AMT1",
+                "feature_value": 4728.0,
+                "shap_value": -0.020168912131025726,
+                "impact": "Decreases predicted default probability"
+            }
+        ]
+    },
+    {
+        "borrower_sample": 59,
+        "predicted_default_probability": 0.1814878135919571,
+        "top_feature_explanations": [
+            {
+                "feature": "PAY_0",
+                "feature_value": 0.0,
+                "shap_value": -0.028545617004736606,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "LIMIT_BAL",
+                "feature_value": 20000.0,
+                "shap_value": 0.025219333970449093,
+                "impact": "Increases predicted default probability"
+            },
+            {
+                "feature": "max_delinquency",
+                "feature_value": 0.0,
+                "shap_value": -0.016632107168213613,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "BILL_AMT1",
+                "feature_value": 16500.0,
+                "shap_value": -0.013554638677540939,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "payment_trend",
+                "feature_value": 936.0,
+                "shap_value": -0.012999002439563421,
+                "impact": "Decreases predicted default probability"
+            }
+        ]
+    },
+    {
+        "borrower_sample": 60,
+        "predicted_default_probability": 0.04316459223628044,
+        "top_feature_explanations": [
+            {
+                "feature": "max_delinquency",
+                "feature_value": 0.0,
+                "shap_value": -0.04188771447328827,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "LIMIT_BAL",
+                "feature_value": 360000.0,
+                "shap_value": -0.031166793414446444,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "PAY_0",
+                "feature_value": 0.0,
+                "shap_value": -0.02639779231609307,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "PAY_AMT3",
+                "feature_value": 4208.0,
+                "shap_value": -0.026210914596468283,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "BILL_AMT5",
+                "feature_value": 78730.0,
+                "shap_value": -0.01895843407633041,
+                "impact": "Decreases predicted default probability"
+            }
+        ]
+    },
+    {
+        "borrower_sample": 61,
+        "predicted_default_probability": 0.1809108406305313,
+        "top_feature_explanations": [
+            {
+                "feature": "LIMIT_BAL",
+                "feature_value": 20000.0,
+                "shap_value": 0.025534321542728736,
+                "impact": "Increases predicted default probability"
+            },
+            {
+                "feature": "max_delinquency",
+                "feature_value": 0.0,
+                "shap_value": -0.02005367596453446,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "PAY_0",
+                "feature_value": 0.0,
+                "shap_value": -0.015673977569616648,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "BILL_AMT1",
+                "feature_value": 18652.0,
+                "shap_value": -0.012440272146531388,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "payment_trend",
+                "feature_value": 915.0,
+                "shap_value": -0.010549010562627152,
+                "impact": "Decreases predicted default probability"
+            }
+        ]
+    },
+    {
+        "borrower_sample": 62,
+        "predicted_default_probability": 0.03989122062921524,
+        "top_feature_explanations": [
+            {
+                "feature": "max_delinquency",
+                "feature_value": 0.0,
+                "shap_value": -0.03830433671565539,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "PAY_AMT1",
+                "feature_value": 6972.0,
+                "shap_value": -0.03190665060530873,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "LIMIT_BAL",
+                "feature_value": 330000.0,
+                "shap_value": -0.031599162390657264,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "PAY_0",
+                "feature_value": 0.0,
+                "shap_value": -0.028171068659959206,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "PAY_AMT6",
+                "feature_value": 5577.0,
+                "shap_value": -0.02137234255627135,
+                "impact": "Decreases predicted default probability"
+            }
+        ]
+    },
+    {
+        "borrower_sample": 63,
+        "predicted_default_probability": 0.14605991542339325,
+        "top_feature_explanations": [
+            {
+                "feature": "max_delinquency",
+                "feature_value": 2.0,
+                "shap_value": 0.028680272867121798,
+                "impact": "Increases predicted default probability"
+            },
+            {
+                "feature": "PAY_0",
+                "feature_value": 0.0,
+                "shap_value": -0.02134300397492292,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "PAY_AMT4",
+                "feature_value": 10000.0,
+                "shap_value": -0.02122929400064165,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "PAY_AMT1",
+                "feature_value": 10000.0,
+                "shap_value": -0.01924784591711291,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "LIMIT_BAL",
+                "feature_value": 250000.0,
+                "shap_value": -0.01800563279224491,
+                "impact": "Decreases predicted default probability"
+            }
+        ]
+    },
+    {
+        "borrower_sample": 64,
+        "predicted_default_probability": 0.08186143636703491,
+        "top_feature_explanations": [
+            {
+                "feature": "PAY_AMT2",
+                "feature_value": 191142.0,
+                "shap_value": -0.03674136890624258,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "max_delinquency",
+                "feature_value": 0.0,
+                "shap_value": -0.030592741703218445,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "payment_to_bill_ratio",
+                "feature_value": 0.8549797167554674,
+                "shap_value": -0.01729293562720906,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "LIMIT_BAL",
+                "feature_value": 240000.0,
+                "shap_value": -0.015391842741242083,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "credit_utilisation",
+                "feature_value": 0.42385833333333334,
+                "shap_value": -0.012298166737211489,
+                "impact": "Decreases predicted default probability"
+            }
+        ]
+    },
+    {
+        "borrower_sample": 65,
+        "predicted_default_probability": 0.2177501767873764,
+        "top_feature_explanations": [
+            {
+                "feature": "max_delinquency",
+                "feature_value": -1.0,
+                "shap_value": -0.023549363067994575,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "maximum_payment",
+                "feature_value": 316.0,
+                "shap_value": 0.02115147293365612,
+                "impact": "Increases predicted default probability"
+            },
+            {
+                "feature": "PAY_4",
+                "feature_value": -1.0,
+                "shap_value": 0.016141758679493308,
+                "impact": "Increases predicted default probability"
+            },
+            {
+                "feature": "AGE",
+                "feature_value": 26.0,
+                "shap_value": -0.014757176548992001,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "bill_change_recent",
+                "feature_value": 840.0,
+                "shap_value": -0.00950098854405826,
+                "impact": "Decreases predicted default probability"
+            }
+        ]
+    },
+    {
+        "borrower_sample": 66,
+        "predicted_default_probability": 0.06553193181753159,
+        "top_feature_explanations": [
+            {
+                "feature": "max_delinquency",
+                "feature_value": 0.0,
+                "shap_value": -0.035307562981501985,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "LIMIT_BAL",
+                "feature_value": 230000.0,
+                "shap_value": -0.025509458566985877,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "credit_utilisation",
+                "feature_value": 0.05852463768115942,
+                "shap_value": -0.024180503851290825,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "PAY_0",
+                "feature_value": 0.0,
+                "shap_value": -0.023336150888217704,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "BILL_AMT1",
+                "feature_value": 15160.0,
+                "shap_value": -0.018160028356023997,
+                "impact": "Decreases predicted default probability"
+            }
+        ]
+    },
+    {
+        "borrower_sample": 67,
+        "predicted_default_probability": 0.05670483037829399,
+        "top_feature_explanations": [
+            {
+                "feature": "bill_change_recent",
+                "feature_value": 4156.0,
+                "shap_value": -0.033188220069458416,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "max_delinquency",
+                "feature_value": 0.0,
+                "shap_value": -0.03313990259095156,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "LIMIT_BAL",
+                "feature_value": 500000.0,
+                "shap_value": -0.02769280209941536,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "PAY_0",
+                "feature_value": 0.0,
+                "shap_value": -0.026712070580601512,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "BILL_AMT1",
+                "feature_value": 50140.0,
+                "shap_value": -0.021713315935898057,
+                "impact": "Decreases predicted default probability"
+            }
+        ]
+    },
+    {
+        "borrower_sample": 68,
+        "predicted_default_probability": 0.14348486065864563,
+        "top_feature_explanations": [
+            {
+                "feature": "maximum_bill",
+                "feature_value": 77543.0,
+                "shap_value": -0.01646889006552832,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "max_delinquency",
+                "feature_value": -1.0,
+                "shap_value": -0.016022366123598593,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "recent_delinquency",
+                "feature_value": 0.0,
+                "shap_value": -0.014933198278080657,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "average_payment",
+                "feature_value": 13372.666666666666,
+                "shap_value": -0.013726755898958998,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "late_payment_months",
+                "feature_value": 0.0,
+                "shap_value": -0.011022277155849594,
+                "impact": "Decreases predicted default probability"
+            }
+        ]
+    },
+    {
+        "borrower_sample": 69,
+        "predicted_default_probability": 0.04788702726364136,
+        "top_feature_explanations": [
+            {
+                "feature": "PAY_0",
+                "feature_value": -1.0,
+                "shap_value": -0.0369259232565567,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "PAY_AMT1",
+                "feature_value": 7972.0,
+                "shap_value": -0.03209780152517485,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "BILL_AMT1",
+                "feature_value": 29276.0,
+                "shap_value": -0.02308366976429705,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "LIMIT_BAL",
+                "feature_value": 500000.0,
+                "shap_value": -0.018120549148659657,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "max_delinquency",
+                "feature_value": -1.0,
+                "shap_value": -0.017605019877477132,
+                "impact": "Decreases predicted default probability"
+            }
+        ]
+    },
+    {
+        "borrower_sample": 70,
+        "predicted_default_probability": 0.05713139474391937,
+        "top_feature_explanations": [
+            {
+                "feature": "max_delinquency",
+                "feature_value": 0.0,
+                "shap_value": -0.03189775646209185,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "PAY_0",
+                "feature_value": 0.0,
+                "shap_value": -0.024886279951656914,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "PAY_AMT3",
+                "feature_value": 3000.0,
+                "shap_value": -0.02484695093066354,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "BILL_AMT1",
+                "feature_value": 48088.0,
+                "shap_value": -0.023009406639549392,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "severe_delinquency_months",
+                "feature_value": 0.0,
+                "shap_value": -0.02172595020596546,
+                "impact": "Decreases predicted default probability"
+            }
+        ]
+    },
+    {
+        "borrower_sample": 71,
+        "predicted_default_probability": 0.7097280025482178,
+        "top_feature_explanations": [
+            {
+                "feature": "PAY_0",
+                "feature_value": 2.0,
+                "shap_value": 0.1584382737806009,
+                "impact": "Increases predicted default probability"
+            },
+            {
+                "feature": "max_delinquency",
+                "feature_value": 2.0,
+                "shap_value": 0.10174068932756117,
+                "impact": "Increases predicted default probability"
+            },
+            {
+                "feature": "severe_delinquency_months",
+                "feature_value": 3.0,
+                "shap_value": 0.06537941897601976,
+                "impact": "Increases predicted default probability"
+            },
+            {
+                "feature": "recent_delinquency",
+                "feature_value": 1.0,
+                "shap_value": 0.028748742833967847,
+                "impact": "Increases predicted default probability"
+            },
+            {
+                "feature": "min_repayment_status",
+                "feature_value": 0.0,
+                "shap_value": 0.026655386747829017,
+                "impact": "Increases predicted default probability"
+            }
+        ]
+    },
+    {
+        "borrower_sample": 72,
+        "predicted_default_probability": 0.20798689126968384,
+        "top_feature_explanations": [
+            {
+                "feature": "max_delinquency",
+                "feature_value": 0.0,
+                "shap_value": -0.029587656998384716,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "BILL_AMT1",
+                "feature_value": 996.0,
+                "shap_value": 0.01848999925923385,
+                "impact": "Increases predicted default probability"
+            },
+            {
+                "feature": "credit_utilisation",
+                "feature_value": 0.01126111111111111,
+                "shap_value": -0.013334811611380596,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "min_repayment_status",
+                "feature_value": -1.0,
+                "shap_value": 0.012439188291675531,
+                "impact": "Increases predicted default probability"
+            },
+            {
+                "feature": "PAY_0",
+                "feature_value": -1.0,
+                "shap_value": -0.010825642998708676,
+                "impact": "Decreases predicted default probability"
+            }
+        ]
+    },
+    {
+        "borrower_sample": 73,
+        "predicted_default_probability": 0.08696829527616501,
+        "top_feature_explanations": [
+            {
+                "feature": "max_delinquency",
+                "feature_value": -2.0,
+                "shap_value": -0.04065076634174624,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "credit_utilisation",
+                "feature_value": 0.4081753968253968,
+                "shap_value": -0.02391241461897964,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "PAY_0",
+                "feature_value": -2.0,
+                "shap_value": -0.022582102466721536,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "bill_change_recent",
+                "feature_value": 29283.0,
+                "shap_value": -0.015911371490758643,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "LIMIT_BAL",
+                "feature_value": 210000.0,
+                "shap_value": -0.01322630722773772,
+                "impact": "Decreases predicted default probability"
+            }
+        ]
+    },
+    {
+        "borrower_sample": 74,
+        "predicted_default_probability": 0.14920014142990112,
+        "top_feature_explanations": [
+            {
+                "feature": "max_delinquency",
+                "feature_value": 0.0,
+                "shap_value": -0.028197131555407685,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "credit_utilisation",
+                "feature_value": 0.60523,
+                "shap_value": 0.01664772208460781,
+                "impact": "Increases predicted default probability"
+            },
+            {
+                "feature": "BILL_AMT1",
+                "feature_value": 46185.0,
+                "shap_value": -0.016071436866519677,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "BILL_AMT5",
+                "feature_value": 21652.0,
+                "shap_value": -0.01368793806382118,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "PAY_AMT2",
+                "feature_value": 4022.0,
+                "shap_value": -0.012656105647463561,
+                "impact": "Decreases predicted default probability"
+            }
+        ]
+    },
+    {
+        "borrower_sample": 75,
+        "predicted_default_probability": 0.3012014925479889,
+        "top_feature_explanations": [
+            {
+                "feature": "max_delinquency",
+                "feature_value": 2.0,
+                "shap_value": 0.04817589935488914,
+                "impact": "Increases predicted default probability"
+            },
+            {
+                "feature": "severe_delinquency_months",
+                "feature_value": 2.0,
+                "shap_value": 0.027406454847930584,
+                "impact": "Increases predicted default probability"
+            },
+            {
+                "feature": "credit_utilisation",
+                "feature_value": -0.00028333333333333335,
+                "shap_value": -0.02605877794924604,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "payment_to_bill_ratio",
+                "feature_value": 3.0853719420868697,
+                "shap_value": -0.01495907160575839,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "PAY_AMT1",
+                "feature_value": 165.0,
+                "shap_value": 0.014745914599346608,
+                "impact": "Increases predicted default probability"
+            }
+        ]
+    },
+    {
+        "borrower_sample": 76,
+        "predicted_default_probability": 0.656520426273346,
+        "top_feature_explanations": [
+            {
+                "feature": "PAY_0",
+                "feature_value": 5.0,
+                "shap_value": 0.12709221247884728,
+                "impact": "Increases predicted default probability"
+            },
+            {
+                "feature": "max_delinquency",
+                "feature_value": 5.0,
+                "shap_value": 0.09467778737989523,
+                "impact": "Increases predicted default probability"
+            },
+            {
+                "feature": "severe_delinquency_months",
+                "feature_value": 5.0,
+                "shap_value": 0.03665673969015564,
+                "impact": "Increases predicted default probability"
+            },
+            {
+                "feature": "recent_delinquency",
+                "feature_value": 1.0,
+                "shap_value": 0.03189731746790321,
+                "impact": "Increases predicted default probability"
+            },
+            {
+                "feature": "avg_repayment_status",
+                "feature_value": 2.3333333333333335,
+                "shap_value": 0.02908044059316692,
+                "impact": "Increases predicted default probability"
+            }
+        ]
+    },
+    {
+        "borrower_sample": 77,
+        "predicted_default_probability": 0.14941459894180298,
+        "top_feature_explanations": [
+            {
+                "feature": "credit_utilisation",
+                "feature_value": 0.00125,
+                "shap_value": -0.026536572112024093,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "PAY_0",
+                "feature_value": -2.0,
+                "shap_value": -0.022740231985013327,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "max_delinquency",
+                "feature_value": 0.0,
+                "shap_value": -0.01818618172258383,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "LIMIT_BAL",
+                "feature_value": 150000.0,
+                "shap_value": -0.008165712985159198,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "minimum_bill",
+                "feature_value": -123.0,
+                "shap_value": -0.008097503285061865,
+                "impact": "Decreases predicted default probability"
+            }
+        ]
+    },
+    {
+        "borrower_sample": 78,
+        "predicted_default_probability": 0.5213845372200012,
+        "top_feature_explanations": [
+            {
+                "feature": "max_delinquency",
+                "feature_value": 2.0,
+                "shap_value": 0.081354042682222,
+                "impact": "Increases predicted default probability"
+            },
+            {
+                "feature": "severe_delinquency_months",
+                "feature_value": 3.0,
+                "shap_value": 0.038868189799613796,
+                "impact": "Increases predicted default probability"
+            },
+            {
+                "feature": "LIMIT_BAL",
+                "feature_value": 10000.0,
+                "shap_value": 0.03233642888571003,
+                "impact": "Increases predicted default probability"
+            },
+            {
+                "feature": "credit_utilisation",
+                "feature_value": 0.9006333333333334,
+                "shap_value": 0.02480919812388525,
+                "impact": "Increases predicted default probability"
+            },
+            {
+                "feature": "PAY_AMT2",
+                "feature_value": 0.0,
+                "shap_value": 0.01946480673198679,
+                "impact": "Increases predicted default probability"
+            }
+        ]
+    },
+    {
+        "borrower_sample": 79,
+        "predicted_default_probability": 0.10811368376016617,
+        "top_feature_explanations": [
+            {
+                "feature": "PAY_AMT1",
+                "feature_value": 18800.0,
+                "shap_value": -0.027605716927563275,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "PAY_0",
+                "feature_value": 0.0,
+                "shap_value": -0.020301725610196587,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "PAY_AMT3",
+                "feature_value": 10000.0,
+                "shap_value": -0.018245569527597594,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "BILL_AMT5",
+                "feature_value": 224776.0,
+                "shap_value": -0.016803706550256915,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "maximum_bill",
+                "feature_value": 248945.0,
+                "shap_value": -0.013149412172468733,
+                "impact": "Decreases predicted default probability"
+            }
+        ]
+    },
+    {
+        "borrower_sample": 80,
+        "predicted_default_probability": 0.15843261778354645,
+        "top_feature_explanations": [
+            {
+                "feature": "max_delinquency",
+                "feature_value": 0.0,
+                "shap_value": -0.018682273791656098,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "min_repayment_status",
+                "feature_value": -1.0,
+                "shap_value": -0.013168909067131966,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "payment_to_bill_ratio",
+                "feature_value": 0.5160611105670355,
+                "shap_value": -0.01110255397868258,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "minimum_bill",
+                "feature_value": 0.0,
+                "shap_value": -0.009049476989668286,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "PAY_6",
+                "feature_value": 0.0,
+                "shap_value": -0.008292513429616582,
+                "impact": "Decreases predicted default probability"
+            }
+        ]
+    },
+    {
+        "borrower_sample": 81,
+        "predicted_default_probability": 0.136907160282135,
+        "top_feature_explanations": [
+            {
+                "feature": "max_delinquency",
+                "feature_value": 0.0,
+                "shap_value": -0.02842965907963632,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "PAY_0",
+                "feature_value": 0.0,
+                "shap_value": -0.02827864425827661,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "BILL_AMT2",
+                "feature_value": 59961.0,
+                "shap_value": -0.011377406964934769,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "AGE",
+                "feature_value": 25.0,
+                "shap_value": -0.010704252818465555,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "BILL_AMT1",
+                "feature_value": 59228.0,
+                "shap_value": -0.009378439632026602,
+                "impact": "Decreases predicted default probability"
+            }
+        ]
+    },
+    {
+        "borrower_sample": 82,
+        "predicted_default_probability": 0.1865878850221634,
+        "top_feature_explanations": [
+            {
+                "feature": "max_delinquency",
+                "feature_value": 0.0,
+                "shap_value": -0.02435580901495659,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "PAY_0",
+                "feature_value": -1.0,
+                "shap_value": -0.012021567662417425,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "severe_delinquency_months",
+                "feature_value": 0.0,
+                "shap_value": -0.008509387627956557,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "PAY_3",
+                "feature_value": -1.0,
+                "shap_value": -0.008082814805674582,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "bill_change_recent",
+                "feature_value": 672.0,
+                "shap_value": -0.0036944266654363963,
+                "impact": "Decreases predicted default probability"
+            }
+        ]
+    },
+    {
+        "borrower_sample": 83,
+        "predicted_default_probability": 0.08586163073778152,
+        "top_feature_explanations": [
+            {
+                "feature": "max_delinquency",
+                "feature_value": 0.0,
+                "shap_value": -0.03267756728376754,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "PAY_AMT1",
+                "feature_value": 15000.0,
+                "shap_value": -0.026397507841549702,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "PAY_AMT2",
+                "feature_value": 14500.0,
+                "shap_value": -0.02521263842504012,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "PAY_0",
+                "feature_value": 0.0,
+                "shap_value": -0.019418357826380083,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "LIMIT_BAL",
+                "feature_value": 500000.0,
+                "shap_value": -0.013088613678263208,
+                "impact": "Decreases predicted default probability"
+            }
+        ]
+    },
+    {
+        "borrower_sample": 84,
+        "predicted_default_probability": 0.07766317576169968,
+        "top_feature_explanations": [
+            {
+                "feature": "credit_utilisation",
+                "feature_value": 0.06266203703703703,
+                "shap_value": -0.023743506336890575,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "PAY_AMT1",
+                "feature_value": 7233.0,
+                "shap_value": -0.02254515155921774,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "max_delinquency",
+                "feature_value": -1.0,
+                "shap_value": -0.02246748248042791,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "PAY_AMT6",
+                "feature_value": 5795.0,
+                "shap_value": -0.021544550876212997,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "PAY_AMT3",
+                "feature_value": 1900.0,
+                "shap_value": -0.020770132871976592,
+                "impact": "Decreases predicted default probability"
+            }
+        ]
+    },
+    {
+        "borrower_sample": 85,
+        "predicted_default_probability": 0.06491827219724655,
+        "top_feature_explanations": [
+            {
+                "feature": "LIMIT_BAL",
+                "feature_value": 260000.0,
+                "shap_value": -0.030081843227440317,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "max_delinquency",
+                "feature_value": 0.0,
+                "shap_value": -0.02775070268205052,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "PAY_0",
+                "feature_value": 0.0,
+                "shap_value": -0.02411226400795195,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "credit_utilisation",
+                "feature_value": 0.3310724358974359,
+                "shap_value": -0.021200481466860686,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "BILL_AMT1",
+                "feature_value": 81745.0,
+                "shap_value": -0.02113272527982068,
+                "impact": "Decreases predicted default probability"
+            }
+        ]
+    },
+    {
+        "borrower_sample": 86,
+        "predicted_default_probability": 0.1287776082754135,
+        "top_feature_explanations": [
+            {
+                "feature": "max_delinquency",
+                "feature_value": 0.0,
+                "shap_value": -0.030294161518678364,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "PAY_0",
+                "feature_value": 0.0,
+                "shap_value": -0.025783387811924383,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "BILL_AMT1",
+                "feature_value": 34265.0,
+                "shap_value": -0.012731135118815365,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "PAY_5",
+                "feature_value": 0.0,
+                "shap_value": -0.011380510287713117,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "maximum_payment",
+                "feature_value": 2000.0,
+                "shap_value": -0.011004437236746925,
+                "impact": "Decreases predicted default probability"
+            }
+        ]
+    },
+    {
+        "borrower_sample": 87,
+        "predicted_default_probability": 0.058394405990839005,
+        "top_feature_explanations": [
+            {
+                "feature": "PAY_0",
+                "feature_value": 0.0,
+                "shap_value": -0.036406084755800816,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "max_delinquency",
+                "feature_value": 0.0,
+                "shap_value": -0.030389353560612408,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "BILL_AMT1",
+                "feature_value": 59688.0,
+                "shap_value": -0.02439339003441462,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "bill_change_recent",
+                "feature_value": 2061.0,
+                "shap_value": -0.024181115821233397,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "severe_delinquency_months",
+                "feature_value": 0.0,
+                "shap_value": -0.019912742628986114,
+                "impact": "Decreases predicted default probability"
+            }
+        ]
+    },
+    {
+        "borrower_sample": 88,
+        "predicted_default_probability": 0.0796249508857727,
+        "top_feature_explanations": [
+            {
+                "feature": "bill_change_recent",
+                "feature_value": 3688.0,
+                "shap_value": -0.03170220916971923,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "PAY_0",
+                "feature_value": 0.0,
+                "shap_value": -0.029727879295127855,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "max_delinquency",
+                "feature_value": 0.0,
+                "shap_value": -0.02771365970354298,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "maximum_bill",
+                "feature_value": 36809.0,
+                "shap_value": -0.02069618294728115,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "BILL_AMT1",
+                "feature_value": 36809.0,
+                "shap_value": -0.01570176249782322,
+                "impact": "Decreases predicted default probability"
+            }
+        ]
+    },
+    {
+        "borrower_sample": 89,
+        "predicted_default_probability": 0.061864402145147324,
+        "top_feature_explanations": [
+            {
+                "feature": "max_delinquency",
+                "feature_value": 0.0,
+                "shap_value": -0.030569775956620842,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "PAY_AMT2",
+                "feature_value": 16998.0,
+                "shap_value": -0.029119189659429424,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "BILL_AMT1",
+                "feature_value": 39936.0,
+                "shap_value": -0.020268166512891227,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "severe_delinquency_months",
+                "feature_value": 0.0,
+                "shap_value": -0.019890704091802294,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "bill_change_recent",
+                "feature_value": 23270.0,
+                "shap_value": -0.018045117838528267,
+                "impact": "Decreases predicted default probability"
+            }
+        ]
+    },
+    {
+        "borrower_sample": 90,
+        "predicted_default_probability": 0.10111688077449799,
+        "top_feature_explanations": [
+            {
+                "feature": "max_delinquency",
+                "feature_value": 0.0,
+                "shap_value": -0.028478984522749738,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "PAY_0",
+                "feature_value": -1.0,
+                "shap_value": -0.0245731837428463,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "severe_delinquency_months",
+                "feature_value": 0.0,
+                "shap_value": -0.022691769565108447,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "MARRIAGE",
+                "feature_value": 2.0,
+                "shap_value": -0.016720154582686924,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "avg_repayment_status",
+                "feature_value": -0.16666666666666666,
+                "shap_value": -0.015465117802726153,
+                "impact": "Decreases predicted default probability"
+            }
+        ]
+    },
+    {
+        "borrower_sample": 91,
+        "predicted_default_probability": 0.21070648729801178,
+        "top_feature_explanations": [
+            {
+                "feature": "PAY_AMT3",
+                "feature_value": 0.0,
+                "shap_value": 0.017813756099892872,
+                "impact": "Increases predicted default probability"
+            },
+            {
+                "feature": "credit_utilisation",
+                "feature_value": 0.006636458333333333,
+                "shap_value": -0.01707009317846876,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "payment_trend",
+                "feature_value": -8399.0,
+                "shap_value": 0.01406687402926704,
+                "impact": "Increases predicted default probability"
+            },
+            {
+                "feature": "PAY_AMT2",
+                "feature_value": 6371.0,
+                "shap_value": -0.01250903736971172,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "LIMIT_BAL",
+                "feature_value": 160000.0,
+                "shap_value": -0.010964562086646033,
+                "impact": "Decreases predicted default probability"
+            }
+        ]
+    },
+    {
+        "borrower_sample": 92,
+        "predicted_default_probability": 0.14734363555908203,
+        "top_feature_explanations": [
+            {
+                "feature": "max_delinquency",
+                "feature_value": 0.0,
+                "shap_value": -0.03965252788218718,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "credit_utilisation",
+                "feature_value": 0.013688888888888888,
+                "shap_value": -0.015240281557463278,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "PAY_0",
+                "feature_value": -1.0,
+                "shap_value": -0.01493776740586907,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "PAY_AMT2",
+                "feature_value": 5536.0,
+                "shap_value": -0.011757449601155847,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "PAY_AMT6",
+                "feature_value": 1344.0,
+                "shap_value": -0.011222437336610675,
+                "impact": "Decreases predicted default probability"
+            }
+        ]
+    },
+    {
+        "borrower_sample": 93,
+        "predicted_default_probability": 0.13860097527503967,
+        "top_feature_explanations": [
+            {
+                "feature": "max_delinquency",
+                "feature_value": -2.0,
+                "shap_value": -0.022326453102243994,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "PAY_0",
+                "feature_value": -2.0,
+                "shap_value": -0.020611028133813703,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "avg_repayment_status",
+                "feature_value": -2.0,
+                "shap_value": -0.014689820358636783,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "credit_utilisation",
+                "feature_value": 0.006692083333333334,
+                "shap_value": -0.012215017176065272,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "severe_delinquency_months",
+                "feature_value": 0.0,
+                "shap_value": -0.011847310640148856,
+                "impact": "Decreases predicted default probability"
+            }
+        ]
+    },
+    {
+        "borrower_sample": 94,
+        "predicted_default_probability": 0.07352039217948914,
+        "top_feature_explanations": [
+            {
+                "feature": "max_delinquency",
+                "feature_value": 0.0,
+                "shap_value": -0.03835615243901006,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "PAY_AMT1",
+                "feature_value": 24840.0,
+                "shap_value": -0.023521629312558134,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "PAY_0",
+                "feature_value": -1.0,
+                "shap_value": -0.019172445476481732,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "LIMIT_BAL",
+                "feature_value": 150000.0,
+                "shap_value": -0.018261230883031405,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "credit_utilisation",
+                "feature_value": 0.07393555555555556,
+                "shap_value": -0.01727495557299062,
+                "impact": "Decreases predicted default probability"
+            }
+        ]
+    },
+    {
+        "borrower_sample": 95,
+        "predicted_default_probability": 0.4878585636615753,
+        "top_feature_explanations": [
+            {
+                "feature": "max_delinquency",
+                "feature_value": 3.0,
+                "shap_value": 0.09698155726579716,
+                "impact": "Increases predicted default probability"
+            },
+            {
+                "feature": "severe_delinquency_months",
+                "feature_value": 5.0,
+                "shap_value": 0.05240158188215676,
+                "impact": "Increases predicted default probability"
+            },
+            {
+                "feature": "avg_repayment_status",
+                "feature_value": 2.1666666666666665,
+                "shap_value": 0.0383889425607082,
+                "impact": "Increases predicted default probability"
+            },
+            {
+                "feature": "recent_delinquency",
+                "feature_value": 1.0,
+                "shap_value": 0.026324862350205334,
+                "impact": "Increases predicted default probability"
+            },
+            {
+                "feature": "late_payment_months",
+                "feature_value": 6.0,
+                "shap_value": 0.02347715170546985,
+                "impact": "Increases predicted default probability"
+            }
+        ]
+    },
+    {
+        "borrower_sample": 96,
+        "predicted_default_probability": 0.726884663105011,
+        "top_feature_explanations": [
+            {
+                "feature": "PAY_0",
+                "feature_value": 2.0,
+                "shap_value": 0.14932000651579688,
+                "impact": "Increases predicted default probability"
+            },
+            {
+                "feature": "max_delinquency",
+                "feature_value": 2.0,
+                "shap_value": 0.10552696486858171,
+                "impact": "Increases predicted default probability"
+            },
+            {
+                "feature": "severe_delinquency_months",
+                "feature_value": 4.0,
+                "shap_value": 0.04405179111037348,
+                "impact": "Increases predicted default probability"
+            },
+            {
+                "feature": "late_payment_months",
+                "feature_value": 4.0,
+                "shap_value": 0.04342383128450646,
+                "impact": "Increases predicted default probability"
+            },
+            {
+                "feature": "recent_delinquency",
+                "feature_value": 1.0,
+                "shap_value": 0.03034406958274623,
+                "impact": "Increases predicted default probability"
+            }
+        ]
+    },
+    {
+        "borrower_sample": 97,
+        "predicted_default_probability": 0.490136981010437,
+        "top_feature_explanations": [
+            {
+                "feature": "max_delinquency",
+                "feature_value": 4.0,
+                "shap_value": 0.09799130427321194,
+                "impact": "Increases predicted default probability"
+            },
+            {
+                "feature": "severe_delinquency_months",
+                "feature_value": 3.0,
+                "shap_value": 0.036232009839189006,
+                "impact": "Increases predicted default probability"
+            },
+            {
+                "feature": "avg_repayment_status",
+                "feature_value": 1.6666666666666667,
+                "shap_value": 0.027855717162639064,
+                "impact": "Increases predicted default probability"
+            },
+            {
+                "feature": "late_payment_months",
+                "feature_value": 4.0,
+                "shap_value": 0.02757952156777431,
+                "impact": "Increases predicted default probability"
+            },
+            {
+                "feature": "PAY_AMT2",
+                "feature_value": 0.0,
+                "shap_value": 0.018022061493142755,
+                "impact": "Increases predicted default probability"
+            }
+        ]
+    },
+    {
+        "borrower_sample": 98,
+        "predicted_default_probability": 0.3859831690788269,
+        "top_feature_explanations": [
+            {
+                "feature": "PAY_AMT3",
+                "feature_value": 0.0,
+                "shap_value": 0.027067977337312515,
+                "impact": "Increases predicted default probability"
+            },
+            {
+                "feature": "maximum_payment",
+                "feature_value": 0.0,
+                "shap_value": 0.0259857336257219,
+                "impact": "Increases predicted default probability"
+            },
+            {
+                "feature": "maximum_bill",
+                "feature_value": 0.0,
+                "shap_value": 0.02506982295349082,
+                "impact": "Increases predicted default probability"
+            },
+            {
+                "feature": "average_payment",
+                "feature_value": 0.0,
+                "shap_value": 0.015824056463387356,
+                "impact": "Increases predicted default probability"
+            },
+            {
+                "feature": "payment_trend",
+                "feature_value": 0.0,
+                "shap_value": 0.0113841330949952,
+                "impact": "Increases predicted default probability"
+            }
+        ]
+    },
+    {
+        "borrower_sample": 99,
+        "predicted_default_probability": 0.19049502909183502,
+        "top_feature_explanations": [
+            {
+                "feature": "credit_utilisation",
+                "feature_value": 0.6373777777777777,
+                "shap_value": 0.028715747116680526,
+                "impact": "Increases predicted default probability"
+            },
+            {
+                "feature": "max_delinquency",
+                "feature_value": 0.0,
+                "shap_value": -0.024437056366948935,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "maximum_bill",
+                "feature_value": 29373.0,
+                "shap_value": -0.01532385110227011,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "payment_to_bill_ratio",
+                "feature_value": 0.0456732445436162,
+                "shap_value": -0.01463014759538332,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "PAY_AMT2",
+                "feature_value": 2138.0,
+                "shap_value": -0.00905189630779709,
+                "impact": "Decreases predicted default probability"
+            }
+        ]
+    },
+    {
+        "borrower_sample": 100,
+        "predicted_default_probability": 0.04938838630914688,
+        "top_feature_explanations": [
+            {
+                "feature": "bill_change_recent",
+                "feature_value": 21870.0,
+                "shap_value": -0.03432873464576917,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "PAY_0",
+                "feature_value": 0.0,
+                "shap_value": -0.02953051465402512,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "max_delinquency",
+                "feature_value": 0.0,
+                "shap_value": -0.025490395649662143,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "LIMIT_BAL",
+                "feature_value": 240000.0,
+                "shap_value": -0.018769534639257665,
+                "impact": "Decreases predicted default probability"
+            },
+            {
+                "feature": "severe_delinquency_months",
+                "feature_value": 0.0,
+                "shap_value": -0.018514718317889065,
+                "impact": "Decreases predicted default probability"
+            }
+        ]
+    }
+]

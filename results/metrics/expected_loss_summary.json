@@ -1,0 +1,13 @@
+{
+    "borrower_count": 4500,
+    "average_pd": 0.21846652030944824,
+    "average_lgd_assumption": 0.4500000000000001,
+    "total_illustrative_ead": 752040000.0,
+    "total_illustrative_ecl": 57961147.92251866,
+    "total_discounted_illustrative_ecl": 52691952.656835146,
+    "average_illustrative_ecl_per_borrower": 12880.255093893036,
+    "annual_discount_rate_assumption": 0.1,
+    "lgd_assumption": 0.45,
+    "ead_multiplier_assumption": 1.0,
+    "methodology_note": "Illustrative ECL. PD is model-estimated; LGD is assumed; EAD uses credit limit as a proxy. These are not institution-calibrated accounting provisions."
+}

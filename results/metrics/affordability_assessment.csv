@@ -1,0 +1,2 @@
+monthly_income,monthly_expenses,existing_emi,other_monthly_debt,proposed_emi,total_existing_debt,total_monthly_debt,existing_dti,dti,proposed_emi_to_income,disposable_income,remaining_debt_capacity,affordability_status
+100000.0,8000.0,500.0,4000.0,15000.0,4500.0,19500.0,0.045,0.195,0.15,72500.0,35500.0,Affordable

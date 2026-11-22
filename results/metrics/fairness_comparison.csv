@@ -1,0 +1,2 @@
+reference_group,comparison_group,demographic_parity_difference,equal_opportunity_difference,false_positive_rate_difference,predicted_default_rate_ratio,accuracy_difference
+Male,Female,-0.05088559718506608,-0.015785140975509426,-0.04444168365918584,0.803882977372578,0.04003719639962566

@@ -1,0 +1,23 @@
+{
+    "monthly_income": 100000.0,
+    "monthly_expenses": 8000.0,
+    "existing_emi": 500.0,
+    "other_monthly_debt": 4000.0,
+    "proposed_emi": 15000.0,
+    "total_existing_debt": 4500.0,
+    "total_monthly_debt": 19500.0,
+    "existing_dti": 0.045,
+    "dti": 0.195,
+    "proposed_emi_to_income": 0.15,
+    "disposable_income": 72500.0,
+    "remaining_debt_capacity": 35500.0,
+    "affordability_status": "Affordable",
+    "assessment_conditions": {
+        "dti_within_limit": true,
+        "emi_within_limit": true,
+        "positive_disposable_income": true
+    },
+    "explanations": [
+        "The borrower meets all configured affordability checks."
+    ]
+}
